@@ -28,10 +28,9 @@ public class Problema03 {
         
         for(int i=20;i<=limite;i+=4){
             celsius=(5.0/9.0)*(i-32.0);
-            cadena=String.format("%sGrados Fahrenheit: %d a Grados Cel"
-                    + "sius: %.1f\n",cadena,i,celsius);
+            cadena=String.format("%s%d   %.1f\n",cadena,i,celsius);
         }
-        System.out.printf("%s",cadena);
+        System.out.printf("Farrenheit  Celsius\n%s",cadena);
         
     }
     
