@@ -25,7 +25,7 @@ public class Problema02 {
                 n2 = i * 3;
                 n3 = i * 4;
                 System.out.printf("%d-%d-%d-%d\n", i, n1, n2, n3);
-            
+                // recordar
             
         }
 
